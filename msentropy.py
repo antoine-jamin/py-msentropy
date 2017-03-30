@@ -3,24 +3,25 @@ __author__ = "Antoine JAMIN"
 
 
 '''
-This python package was develop during my internship at LARIS (http://laris.univ-angers.fr/fr/index.html)
-This python package implements some function to calculate multi-scale entropy, refined composite multi-scale entropy and
-cross-sample entropy.
+This python package was developed during my internship at LARIS (http://laris.univ-angers.fr/fr/index.html)
+This python package implements some function to calculate multi-scale entropy, refined composite multi-scale entropy
+and cross-sample entropy.
 To develop this package we use these references :
     [S M. Pincus, 1991] -- Approximate entropy as mesure of system complexity.
     [J. Richman, 2000] -- Physiological time-series analysis using approximate entropy and sample entropy.
     [A. Humeau, 2015] -- The Multiscale Entropy Algorithm and Its Variants : A Review.
-    [M. Costa, 2002] -- Multiscale Entropy Analysis of Complex Physiologic Time Series.
+    [M. Costa,2002] -- Multiscale Entropy Analysis of Complex Physiologic Time Series.
     [S. Wu, 2014] -- Analysis of complex time series using refined composite multiscale entropy
-    [Y. Chang, 2014] -- Application of a Modified Entropy Computational Method in Assessing the Complexity of Pulse Wave
-                        Velocity Signals in Healthy and Diabetic Subjects.
+    [Y. Chang, 2014] -- Application of a Modified Entropy Computational Method in Assessing the Complexity of Pulse
+                        Wave Velocity Signals in Healthy and Diabetic Subjects.
     [D. Kong, 2011] -- Use of modified sample entropy measurement to classify ventricular tachycardia and fibrillation.
     [T. Zhang, 2007] -- Cross-sample entropy statistic as a measure of complexity and regularity of renal sympathetic
                         nerve activity in the rat.
     [W. Shi, 2013] -- Cross-sample entropy statistic as a measure of synchronism and cross-correlation of stock markets.
     [C. C. Chiu, 2011] -- Assessment of Diabetics with Various Degrees of Autonomic Neuropathy Based on
-                        Cross-Approximate Entropy
-This package use the pyeeg package you need to import it (Copyleft 2010 Forrest Sheng Bao http://fsbao.net) : http://pyeeg.org
+                            Cross-Approximate Entropy
+This package use the pyeeg package you need to import it (Copyleft 2010 Forrest Sheng Bao http://fsbao.net) :
+                                                                        http://pyeeg.sourceforge.net
 This package use the numpy package you need to import it (http://numpy.scipy.org)
 '''
 
